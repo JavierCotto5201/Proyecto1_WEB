@@ -1,0 +1,51 @@
+/*REFERENCIAS
+/*How To Create a Top Navigation Bar. (2019). W3schools.com. https://www.w3schools.com/howto/howto_js_topnav.asp
+/How To Create a Search Button. (2020). W3schools.com. https://www.w3schools.com/howto/howto_css_search_button.asp
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #191414;
+    overflow: hidden;
+    height:70px;
+    width: 1250px;
+    margin-left: 271px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #c0c0c0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-top: 10px;
+  }
+
+  .reg{
+      margin-left: 350px;
+  }
+
+  .log{
+      background-color: white;
+      border-radius: 50px;
+  }
+
+  /* Style the search field */
+  input[type=text] {
+    font-size: 14px;
+    float: left;
+    background: white;
+    border-radius: 50px;
+    height:30px;
+    width: 300px;
+    margin-top: -10px;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
