@@ -1,11 +1,13 @@
 import React from "react";
-import NavBar2 from "./NavBar2";
 import "./Tablero.css";
+import Canciones from "./Canciones";
 
 export default class Tablero extends React.Component {
   render() {
     return (
-        <div id="Tablero"></div>     
+        <div id="Tablero">
+          <Canciones></Canciones>
+        </div>     
     );
   };
 };

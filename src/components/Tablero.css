@@ -1,9 +1,10 @@
 #Tablero{
     display: flex;
     flex-wrap: wrap;
-    width: 99%;
+    width: 82.05%;
     height: 89%;
+    margin-left:-30px;
     position:absolute;
-    justify-content: space-around;
     background-color: #1a1b1b;
+    overflow-y: auto;
 }

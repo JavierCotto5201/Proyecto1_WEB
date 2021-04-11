@@ -1,0 +1,36 @@
+.canciones a{
+    float: left;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.canciones a:hover{
+    text-decoration: underline;
+}
+
+table{
+    margin-left: 10px;
+}
+
+th{
+    padding-left: 10px;
+    padding-right:10px;
+    font-family: sans-serif;
+    color:white;
+    background-color:#1c1d1d;
+    font-size:14px;
+}
+
+table tr th img{
+    width: 180px;
+    height: 180px;
+}
+
+th:hover{
+    background-color: #292b2b;
+}
+

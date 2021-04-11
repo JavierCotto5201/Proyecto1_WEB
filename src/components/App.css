@@ -1,0 +1,17 @@
+/*REFERENCIAS
+https://grid.layoutit.com/
+*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 220px 380pxpx 300px 300px;
+    grid-template-rows: 70px 50px 50px;
+    gap: 0px 0px;
+    grid-template-areas:
+      "SideBar Nav-Bar Nav-Bar Nav-Bar"
+      "SideBar Tablero Tablero Tablero"
+      "SideBar Tablero Tablero Tablero";
+  }
+  .SideBar { grid-area: SideBar; }
+  .Nav-Bar { grid-area: Nav-Bar; }
+  .Tablero { grid-area: Tablero; }
