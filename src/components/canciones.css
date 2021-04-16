@@ -41,11 +41,11 @@ th:hover{
     background-color: #292b2b;
 }
 
-button{
+.boton{
     display: none;
 }
 
-th:hover > button{
+th:hover > .boton{
     display: block;
     position: absolute;
     margin-left:140px;
@@ -53,11 +53,28 @@ th:hover > button{
     width:35px;
     height:35px;
     background-color: #1DB954;
+    opacity: 90%;
     border-radius: 50%;
-    opacity: 75%;
 }
 
-button:hover{
+.boton:hover{
     animation-name: pulse;
     animation-duration: 1s;
+}
+
+/*
+Play Button - CSS Icons. (n.d.). Css.gg. Retrieved April 16, 2021, from https://css.gg/play-button*/
+.boton::before{
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 0;
+    height: 10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid white;
+    top: 5px;
+    left: 10px;
+    opacity: 85%;
 }
