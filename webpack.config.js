@@ -28,12 +28,15 @@ module.exports = {
         exclude: /(node_modules)/,
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-          },
-        ],
+        test: /\.(png|jpe?g|gif|mp4|jpg|mpeg)$/i,
+                use: [
+                  {
+                    loader: 'file-loader',
+                    options:{
+                        name:'[path] [name].[ext]',
+                    }
+                  },
+                ],
       },
     ],
   },
