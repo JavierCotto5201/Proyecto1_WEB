@@ -1,3 +1,4 @@
+@import "~animate.css/animate.css";
 .canciones a{
     float: left;
     color: white;
@@ -19,13 +20,19 @@ table{
 th{
     padding-left: 10px;
     padding-right:10px;
+    padding-top: 15px;
     font-family: sans-serif;
     color:white;
     background-color:#1c1d1d;
     font-size:14px;
 }
 
-table tr th img{
+h5{
+    margin-top: -15px;
+    color:#c0c0c0;
+}
+
+table tbody th img{
     width: 180px;
     height: 180px;
 }
@@ -34,3 +41,23 @@ th:hover{
     background-color: #292b2b;
 }
 
+button{
+    display: none;
+}
+
+th:hover > button{
+    display: block;
+    position: absolute;
+    margin-left:140px;
+    margin-top: -125px;
+    width:35px;
+    height:35px;
+    background-color: #1DB954;
+    border-radius: 50%;
+    opacity: 75%;
+}
+
+button:hover{
+    animation-name: pulse;
+    animation-duration: 1s;
+}

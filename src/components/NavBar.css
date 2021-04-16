@@ -1,7 +1,7 @@
 /*REFERENCIAS
 /*How To Create a Top Navigation Bar. (2019). W3schools.com. https://www.w3schools.com/howto/howto_js_topnav.asp
-/How To Create a Search Button. (2020). W3schools.com. https://www.w3schools.com/howto/howto_css_search_button.asp
-
+/How To Create a Search Button. (2020). W3schools.com. https://www.w3schools.com/howto/howto_css_search_button.asp*/
+@import "~animate.css/animate.css";
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #191414;
@@ -36,6 +36,18 @@
       border-radius: 50px;
   }
 
+  .reg:hover{
+    animation-name: pulse;
+    animation-duration: 0.5s;
+    color:black;
+  }
+
+  .log:hover{
+    animation-name: pulse;
+    animation-duration: 0.5s;
+    color:black;
+  }
+
   /* Style the search field */
   input[type=text] {
     font-size: 14px;
@@ -53,3 +65,5 @@
     clear: both;
     display: table;
   }
+
+  
